@@ -1,0 +1,56 @@
+{
+  "name": "gelato-codestates-partner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules package-lock.json .next",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server/server",
+    "start": "next start -p 9090",
+    "build": "next build",
+    "lint": "eslint components/ lib/ pages/ server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloomkorea/gelato-codestates-partner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@material-ui/core": "^3.9.2",
+    "axios": "^0.18.0",
+    "eslint": "^5.14.1",
+    "eslint-config-semistandard": "^13.0.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "styled-jsx": "^3.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/bloomkorea/gelato-codestates-partner/issues"
+  },
+  "homepage": "https://github.com/bloomkorea/gelato-codestates-partner#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "js-cookie": "^2.2.0",
+    "jss": "^9.8.7",
+    "next-cookies": "^1.1.2",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-form": "^8.1.0",
+    "semantic-ui-react": "^0.85.0"
+  }
+}
